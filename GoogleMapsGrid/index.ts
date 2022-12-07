@@ -121,6 +121,10 @@ export class GoogleMapsGrid implements ComponentFramework.StandardControl<IInput
         }
         const infowindow = new google.maps.InfoWindow();
 
+        if (context.parameters.mapDataSet.paging.hasNextPage) {
+			context.parameters.mapDataSet.paging.loadNextPage();
+		}
+
         for (let i = 0; i < context.parameters.mapDataSet.paging.totalResultCount; i++) {
 
             const recordId = dataSet.sortedRecordIds[i];

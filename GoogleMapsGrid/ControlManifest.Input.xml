@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="jPCF" constructor="GoogleMapsGrid" version="0.0.17" display-name-key="GoogleMapsGrid_Display_Key" description-key="GoogleMapsGrid_Desc_Key" control-type="standard" preview-image="images/gmaps_thumb.png">
+  <control namespace="jPCF" constructor="GoogleMapsGrid" version="0.0.18" display-name-key="GoogleMapsGrid_Display_Key" description-key="GoogleMapsGrid_Desc_Key" control-type="standard" preview-image="images/gmaps_thumb.png">
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
     <data-set name="mapDataSet" display-name-key="mapDataSet_Display_Key">
       <!-- 'property-set' node represents a unique, configurable property that each record in the dataset must provide. -->
